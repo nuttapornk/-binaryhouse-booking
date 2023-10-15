@@ -1,5 +1,6 @@
 # Booking
 
+dotnet ef command
 ```
 dotnet ef migrations add "InitialDatabase" --project .\src\Infrastructure\ --startup-project .\src\Booking\ --output-dir Persistence\Migrations
 ```
